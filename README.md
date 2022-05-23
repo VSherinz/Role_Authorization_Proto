@@ -14,7 +14,9 @@ returns the following response in JSON format.
 Example Response:
 
 {
+
 "canAccess": true|false (will be true if the user has access to the featureName)
+
 }
 
 POST /feature
@@ -26,9 +28,13 @@ returns Http Status Not Modified (304).
 Example Request:
 
 {
+
 "featureName": "xxx", (string)
+
 "email": "xxx", (string) (user's name)
+
 "enable": true|false (boolean) (uses true to enable a user's access, otherwise
+
 }
 
 _____________________________________________________________________________________

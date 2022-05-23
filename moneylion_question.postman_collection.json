@@ -35,7 +35,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n \"featureName\":\"testFeature2\"\r\n}\r\n",
+							"raw": "{\r\n \"featureName\":\"testFeature1\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"

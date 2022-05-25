@@ -8,12 +8,12 @@ Brief Description: This is a little overengineered implementation that solves th
 I sit and think about how I should get this done:
 
 1. Full View - Controller - Model
-2. Question regarding dependency of tools
+2. Question regarding dependency of tools </br>
 2.1 Database - Postgres? SQL Server? Should I produce a script that facilitate installation of these dependency
 3. Hence why I chose SqlLite as my choice of DB, simple without needing to wire extra dependency
 4. Hence why I design Model - Controller and just use Postman to test the validity of the output
-5. I have entertained the thought of further capitalising on Postman Post-Script for better output validation 
-5.1 Should I make use of Post-Script to expect and assert
+5. I have entertained the thought of further capitalising on Postman Post-Script for better output validation  </br>
+5.1 Should I make use of Post-Script to expect and assert </br>
 5.2 Should I wire the entire postman endpoint into a single automated testing
 6. But I resort on keeping Point (5) as possible way of improvement for the sake of simplicity of the prototype
 
